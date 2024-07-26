@@ -1,0 +1,38 @@
+.popular-movie-list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 250px;
+  height: 400px;
+  margin: 20px;
+}
+.movie-img {
+  width: 180px;
+  height: 220px;
+  margin: 10px;
+}
+.movie-title {
+  font-family: 'Roboto';
+  color: white;
+  font-size: 20px;
+}
+.movie-rating {
+  font-family: 'Roboto';
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+}
+.view-btn {
+  width: 150px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #2196f3;
+  color: white;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+}

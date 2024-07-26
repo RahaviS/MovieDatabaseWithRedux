@@ -1,0 +1,24 @@
+.top-rated-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100%;
+  background-color: black;
+}
+.section-title {
+  font-family: 'Roboto';
+  color: white;
+  font-size: 30px;
+  align-self: flex-start;
+  padding-left: 30px;
+}
+.top-rated-movie-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
